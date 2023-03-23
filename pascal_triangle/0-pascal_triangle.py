@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" This module provides a function for generating
+ Pascal's triangle up to a given number of rows."""
 def pascal_triangle(n):
     if n <= 0:
         return []
