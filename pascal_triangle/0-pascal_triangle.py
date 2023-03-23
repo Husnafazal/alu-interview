@@ -4,19 +4,23 @@
 """
 pascal_triangle module:
 
-This module provides a function for generating Pascal's triangle up to a given number of rows.
+This module provides a function for generating Pascal's
+triangle up to a given number of rows.
 
 Functions:
-- pascal_triangle(n): Returns a list of lists of integers representing the Pascal's triangle of n.
+- pascal_triangle(n): Returns a list of lists of integers
+representing the Pascal's triangle of n.
 
 Example usage:
 >>> pascal_triangle(5)
 [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]
 """
 
+
 def pascal_triangle(n):
     """
-    Returns a list of lists of integers representing the Pascal's triangle of n.
+    Returns a list of lists of integers
+    representing the Pascal's triangle of n.
 
     Args:
     - n (int): The number of rows to generate in the triangle.
